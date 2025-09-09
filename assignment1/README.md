@@ -1,3 +1,8 @@
+Nathan Lee
+CS 4680
+Assignment 1
+
+
 Student Performance Prediction Report
 
 --------------------------------------------------
