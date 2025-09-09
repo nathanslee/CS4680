@@ -17,7 +17,7 @@ The problem addressed is predicting student performance in terms of both final e
 - Data quality: No missing values. Features include both numerical and categorical data, requiring preprocessing.
 - Preprocessing steps:
   * Dropped Student_ID (not predictive).
-  * Encoded categorical variables with one-hot encoding. (labels or categories
+  * Encoded categorical variables with one-hot encoding. labels or categories
   * Split dataset into training (80%) and testing (20%), stratified on Pass/Fail.
 
 --------------------------------------------------
@@ -80,6 +80,3 @@ Visual Results:
 - Regression: Random Forest Regressor is more effective for predicting numeric exam scores compared to Linear Regression.
 - Classification: Random Forest Classifier is the most suitable for predicting pass/fail, outperforming Logistic Regression across all metrics.
 - Overall: Classification is useful for flagging at-risk students, while regression provides insight into expected exam performance levels.
-
-
-Random Forest Classifier
